@@ -6,7 +6,9 @@ install! 'cocoapods', :deterministic_uuids => false
 
 project 'Flavor',{
   'Debug' => :debug,
+  'DevelopmentDebug' => :debug,
   'Release' => :release,
+  'DevelopmentRelease' => :release,
 }
 
 target 'Flavor' do
