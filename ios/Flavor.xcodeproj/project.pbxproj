@@ -996,7 +996,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 125015A493D2440458560791 /* Pods-Flavor.stagingdebug.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStaging;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_BITCODE = NO;
@@ -1114,7 +1114,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 22B2F600BB9F8AFBE9085B0D /* Pods-Flavor.stagingrelease.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIconStaging;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				INFOPLIST_FILE = Flavor/Info.plist;
