@@ -6,8 +6,10 @@ install! 'cocoapods', :deterministic_uuids => false
 
 project 'Flavor',{
   'Debug' => :debug,
+  'StagingDebug' => :debug,
   'DevelopmentDebug' => :debug,
   'Release' => :release,
+  'StagingRelease' => :release,
   'DevelopmentRelease' => :release,
 }
 
