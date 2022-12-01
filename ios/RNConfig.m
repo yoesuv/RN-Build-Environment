@@ -15,6 +15,8 @@ RCT_EXPORT_MODULE();
 {
 #if DEV
   NSString *env=@"dev";
+#elif PROD
+  NSString *env=@"prod";
 #elif DEBUG
   NSString *env=@"staging";
 #else
