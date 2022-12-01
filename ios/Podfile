@@ -8,9 +8,11 @@ project 'Flavor',{
   'Debug' => :debug,
   'StagingDebug' => :debug,
   'DevelopmentDebug' => :debug,
+  'ProductionDebug' => :debug,
   'Release' => :release,
   'StagingRelease' => :release,
   'DevelopmentRelease' => :release,
+  'ProductionRelease' => :release,
 }
 
 target 'Flavor' do
