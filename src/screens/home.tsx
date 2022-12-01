@@ -1,13 +1,14 @@
-import { StyleSheet, View, Text } from "react-native";
+import { StyleSheet, View, Text, NativeModules } from "react-native";
 import DeviceInfoModule from 'react-native-device-info';
 import SizedBox from "../components/sized-box";
 
 export default function HomeScreen() {
 
     const bundleId = DeviceInfoModule.getBundleId();
+    const env = NativeModules.RNConfig.env;
 
     return <View style={styles.container}>
-        <Text style={styles.label}>Flavor : </Text>
+        <Text style={styles.label}>Flavor : { env }</Text>
         <SizedBox height={10} />
         <Text style={styles.label}>Base Url : </Text>
         <Text style={styles.value}>{ bundleId }</Text>
