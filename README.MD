@@ -3,7 +3,7 @@
 Demonstrate build React Native app using flavor/scheme in Android & iOS.
 How to run
 ```
-npx react-native run-android --variant=developmentDebug
+npx react-native run-android --variant=devDebug
 npx react-native run-android --variant=stagingDebug
 npx react-native run-android --variant=productionDebug
 
@@ -15,7 +15,7 @@ npx react-native run-ios --scheme FlavorProduction --configuration ProductionDeb
 #### Screenshot Android ####
 | Flavor | Development | Staging | Production |
 | :---: | :---: | :---: | :---: |
-| ![]() | ![]() | ![]() | ![]() |
+| ![](https://i.imgur.com/Y5qnoYs.png) | ![](https://i.imgur.com/eLVoch2.png) | ![](https://i.imgur.com/CP3Q0r8.png) | ![](https://i.imgur.com/rFac2AV.png) |
 
 #### Screenshot iOS ####
 | Flavor | Development | Staging | Production |
